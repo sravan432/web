@@ -1,7 +1,6 @@
 function javaintro()
 {
-    $( "#javaintro" ).load( "/javaintro.html");
-    document.getElementById("javaintro").innerHtml=Sravan;
+    $( "#javaintro" ).load( "HTML/JAVA/javaintro.html");
 
 }
 function oopsIntro()
