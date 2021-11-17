@@ -1,6 +1,6 @@
 function javaintro()
 {
-    $( "#javaintro" ).load( "/javaintro.html");
+    $( "#javaintro" ).load( "javaintro.html");
 
 }
 function oopsIntro()
