@@ -9,24 +9,24 @@ function oopsIntro()
 }
 function stringIntro()
 {
-    $( "#StringIntro" ).load("../Docs/javaintro.html" );   
+    $( "#StringIntro" ).load( "javaintro.html" );   
 }
 function multithreadingIntro()
 {
-    $( "#MultithreadingIntro" ).load( "../../Docs/javaintro.html" );   
+    $( "#MultithreadingIntro" ).load(  "javaintro.html");   
  }
 
 function exceptionIntro(){
 
-    $( "#ExceptionIntro" ).load( "../../Docs/javaintro.html" );
+    $( "#ExceptionIntro" ).load(  "javaintro.html" );
 }
 
 function collectionsIntro(){
-    $( "#CollectionsIntro" ).load( "../../Docs/javaintro.html" );
+    $( "#CollectionsIntro" ).load( "javaintro.html");
 }
 
 function javaPrograms(){
-    $( "#JavaPrograms" ).load( "../../Docs/javaintro.html" );
+    $( "#JavaPrograms" ).load( "javaintro.html" );
 }
 
 
