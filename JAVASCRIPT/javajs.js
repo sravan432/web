@@ -9,7 +9,7 @@ function oopsIntro()
 }
 function stringIntro()
 {
-    $( "#StringIntro" ).load("../../Docs/javaintro.html" );   
+    $( "#StringIntro" ).load("../Docs/javaintro.html" );   
 }
 function multithreadingIntro()
 {
