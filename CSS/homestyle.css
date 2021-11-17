@@ -1,0 +1,53 @@
+
+body{
+  background-color: rgb(227, 232, 233);
+}
+
+table {
+  font-family: arial, sans-serif;
+  width: 10%;
+  padding-left: 1px;
+  border:1px solid rgb(206, 205, 219);
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 20px;
+  background-color: rgb(231, 226, 230);
+}
+tr{
+ 
+}
+td{
+  border: 1px solid #e7e8ec;
+  border-image: round;
+  text-align: center;
+  padding: 50px;
+  background-color: white;
+   box-shadow: 10px 10px rgb(248, 247, 245);
+}
+
+#heading{
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  text-align: center;
+}
+#techname{
+  color: #0c434b;
+}
+
+
+  a:link {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+

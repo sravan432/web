@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../../CSS/javastyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.min.css" integrity="sha512-Rcr1oG0XvqZI1yv1HIg9LgZVDEhf2AHjv+9AuD1JXWGLzlkoKDVvE925qySLcEywpMAYA/rkg296MkvqBF07Yw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Java</title>
+</head>
+<body>
+    
+    <div class="split top">
+        <div class="contents">
+            <div><h3><a href="../home.html"><i style="font-style: italic; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">SRAVAN</i></a></h3></div>
+            <div><h3><a href="Java.html"><i class="fab fa-java"></i> JAVA</a></h3></div>
+            
+            <div><h3><a href="Oops.html"> Oops</a></h3></div>
+            <div><h3><a href="#StringIntro" onclick="stringIntro()"> String</a></h3></div>
+            <div><h3><a href="Multithreding.html"> Multithreading</a></h3></div>
+            <div><h3><a href="Exception.html"> Exception</a></h3></div>
+            <div><h3><a href="Collections.html"> Collections</a></h3></div>
+            <div><h3><a href="JavaPrograms.html"> Programs</a></h3></div>
+           <div id="signup"><h3><a href="SignUp.html">Sign Up</a></h3></div>
+        </div>
+      </div>
+
+    <div class="split left course">
+
+      <div style="padding-left: 25px;padding-top: 20px;padding-bottom: 30px; color: red;">JAVA String</div>
+
+      <div><a href="#String" onclick="string()"><i class="fas fa-arrow-alt-circle-right"></i> What is String</a></div>
+
+      <div><a href="#Immutable" onclick="immutable()"><i class="fas fa-arrow-alt-circle-right"></i> Immutable String</a></div>
+
+      <div><a href="#Comparison" onclick="comparison()"><i class="fas fa-arrow-alt-circle-right"></i> String Comparison</a></div>
+
+      <div><a href="#Concat" onclick="concat()"><i class="fas fa-arrow-alt-circle-right"></i> String Concatination</a></div>
+
+
+      <div><a href="#Substring" onclick="substring()"><i class="fas fa-arrow-alt-circle-right"></i> SubString</a></div>
+
+      <div><a href="#Methods" onclick="methods()"><i class="fas fa-arrow-alt-circle-right"></i> Methods of String Class</a></div>
+
+      <div><a href="#StringBuffer" onclick="stringBuffer()"><i class="fas fa-arrow-alt-circle-right"></i> StringBuffer class</a></div>
+
+      <div><a href="#StringBuilder" onclick="stringBuilder()"><i class="fas fa-arrow-alt-circle-right"></i> StringBuilder class</a></div>
+
+      <div><a href="#StringvsBuffer" onclick="stringvsBuffer()"><i class="fas fa-arrow-alt-circle-right"></i> String vs StringBuffer</a></div>
+
+      <div><a href="#BuffervsBuilder" onclick="buffervsBuilder()"><i class="fas fa-arrow-alt-circle-right"></i> StringBuffer vs Builder</a></div>
+
+      <div><a href="#Immutable" onclick="immutable()"><i class="fas fa-arrow-alt-circle-right"></i> Creating Immutable class</a></div>
+
+      <div><a href="#ToString" onclick="toString()"><i class="fas fa-arrow-alt-circle-right"></i> toString method</a></div>
+      
+      <div><a href="#Tokenizer" onclick="tokenizer()"><i class="fas fa-arrow-alt-circle-right"></i> StringTokenizer class</a></div>
+
+
+      <div style="padding-left: 25px; color: red;"> Java String Methods</div>
+
+
+      <div><a href="#CharAt" onclick="charAt()"><i class="fas fa-arrow-alt-circle-right"></i> charAt()</a></div>
+
+      <div><a href="#CompareTo" onclick="compareTo()"><i class="fas fa-arrow-alt-circle-right"></i> compareTo()</a></div>
+
+      <div><a href="#Concat" onclick="concat()"><i class="fas fa-arrow-alt-circle-right"></i> concat()</a></div>
+
+      <div><a href="#Contains" onclick="contains()"><i class="fas fa-arrow-alt-circle-right"></i> contains()</a></div>
+
+      <div><a href="#EndsWith" onclick="endsWith()"><i class="fas fa-arrow-alt-circle-right"></i> endsWith()</a></div>
+
+      <div><a href="#Equals" onclick="equals()"><i class="fas fa-arrow-alt-circle-right"></i> equals()</a></div>
+
+      <div><a href="#EqualsIgnoreCase" onclick="equalsIgnoreCase()"><i class="fas fa-arrow-alt-circle-right"></i> equalsIgnoreCase()</a></div>
+
+      <div><a href="#Format" onclick="format()"><i class="fas fa-arrow-alt-circle-right"></i> format()</a></div>
+
+
+      <div><a href="#GetBytes" onclick="getBytes()"><i class="fas fa-arrow-alt-circle-right"></i> getBytes()</a></div>
+
+      <div><a href="#GetChars" onclick="getChars()"><i class="fas fa-arrow-alt-circle-right"></i> getChars()</a></div>
+
+      <div><a href="#IndexOf" onclick="indexOf()"><i class="fas fa-arrow-alt-circle-right"></i> indexOf()</a></div>
+
+      <div><a href="#Intern" onclick="intern()"><i class="fas fa-arrow-alt-circle-right"></i> intern()</a></div>
+
+
+      <div><a href="#IsEmpty" onclick="isEmpty()"><i class="fas fa-arrow-alt-circle-right"></i> isEmpty()</a></div>
+
+      <div><a href="#Join" onclick="join()"><i class="fas fa-arrow-alt-circle-right"></i> join()</a></div>
+
+      <div><a href="#LastIndexOf" onclick="lastIndexOf()"><i class="fas fa-arrow-alt-circle-right"></i> lastIndexOf()</a></div>
+
+      <div><a href="#Length" onclick="Length()"><i class="fas fa-arrow-alt-circle-right"></i> length()</a></div>
+
+      <div><a href="#Replace" onclick="replace()"><i class="fas fa-arrow-alt-circle-right"></i> replace()</a></div>
+
+      <div><a href="#ReplaceAll" onclick="replaceAll()"><i class="fas fa-arrow-alt-circle-right"></i> replaceAll()</a></div>
+
+
+      <div><a href="#Split" onclick="split()"><i class="fas fa-arrow-alt-circle-right"></i> split()</a></div>
+
+      <div><a href="#StartsWith" onclick="startsWith()"><i class="fas fa-arrow-alt-circle-right"></i> startsWith()</a></div>
+
+      <div><a href="#SubString" onclick="subString()"><i class="fas fa-arrow-alt-circle-right"></i> subString()</a></div>
+
+      <div><a href="#ToCharArray" onclick="toCharArray()"><i class="fas fa-arrow-alt-circle-right"></i> toCharArray()</a></div>
+
+
+      <div><a href="#ToLowercase" onclick="toLowercase()"><i class="fas fa-arrow-alt-circle-right"></i> toLowercase()</a></div>
+
+      <div><a href="#ToUpperCase" onclick="toUpperCase()"><i class="fas fa-arrow-alt-circle-right"></i> ToUpperCase()</a></div>
+
+      <div><a href="#Trim" onclick="trim()"><i class="fas fa-arrow-alt-circle-right"></i> trim()</a></div>
+
+      <div><a href="#ValueOf" onclick="valueOf()"><i class="fas fa-arrow-alt-circle-right"></i> valueOf()</a></div>
+
+
+    </div>
+      
+      <div class="split right">
+        
+
+
+          <div id="StringIntro"></div>
+          <div id="article1"></div>
+          <div id="article2"></div>
+          <div id="article3"></div>
+
+
+      </div>
+      
+
+      <script type="text/javascript" src="../../JAVASCRIPT/javajs.js">
+        
+      </script>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../../CSS/javastyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.min.css" integrity="sha512-Rcr1oG0XvqZI1yv1HIg9LgZVDEhf2AHjv+9AuD1JXWGLzlkoKDVvE925qySLcEywpMAYA/rkg296MkvqBF07Yw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Java</title>
+</head>
+<body>
+    
+    <div class="split top">
+        <div class="contents">
+            <div><h3><a href="../home.html"><i style="font-style: italic; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">SRAVAN</i></a></h3></div>
+            <div><h3><a href="Java.html"><i class="fab fa-java"></i> JAVA</a></h3></div>
+            
+            <div><h3><a href="Oops.html"> Oops</a></h3></div>
+            <div><h3><a href="#StringIntro" onclick="stringIntro()"> String</a></h3></div>
+            <div><h3><a href="#MultithreadingIntro" onclick="multithreadingIntro()"> Multithreading</a></h3></div>
+            <div><h3><a href="Exception.html"> Exception</a></h3></div>
+            <div><h3><a href="Collections.html"> Collections</a></h3></div>
+            <div><h3><a href="JavaPrograms.html"> Programs</a></h3></div>
+           <div id="signup"><h3><a href="SignUp.html">Sign Up</a></h3></div>
+        </div>
+      </div>
+
+    <div class="split left course">
+
+      <div style="padding-left: 25px;padding-top: 20px;padding-bottom: 30px; color: red;">JAVA Multithreading</div>
+
+      <div><a href="#Multithreading" onclick="multithreading()"><i class="fas fa-arrow-alt-circle-right"></i> What is Multithreading</a></div>
+
+      <div><a href="#LifeCycle" onclick="lifeCycle()"><i class="fas fa-arrow-alt-circle-right"></i> Life Cycle of a Thread</a></div>
+
+      <div><a href="#CreateThread" onclick="createThread()"><i class="fas fa-arrow-alt-circle-right"></i> How to Create Thread</a></div>
+
+      <div><a href="#Scheduler" onclick="scheduler()"><i class="fas fa-arrow-alt-circle-right"></i> Thread Scheduler</a></div>
+
+
+      <div><a href="#Sleeping" onclick="sleeping()"><i class="fas fa-arrow-alt-circle-right"></i> Sleeping a thread</a></div>
+
+      <div><a href="#ThreadTwice" onclick="threadTwice()"><i class="fas fa-arrow-alt-circle-right"></i> Start a thread twice</a></div>
+
+      <div><a href="#RunMethod" onclick="runMethod()"><i class="fas fa-arrow-alt-circle-right"></i> Calling run() method</a></div>
+
+      <div><a href="#JoinThread" onclick="joinThread()"><i class="fas fa-arrow-alt-circle-right"></i> Joining a thread</a></div>
+
+      <div><a href="#NamingThread" onclick="namingThread()"><i class="fas fa-arrow-alt-circle-right"></i> Naming a thread</a></div>
+
+      <div><a href="#PriorityThread" onclick="priorityThread()"><i class="fas fa-arrow-alt-circle-right"></i> Thread Priority</a></div>
+
+      <div><a href="#ThreadPool" onclick="threadPool()"><i class="fas fa-arrow-alt-circle-right"></i> Thread Pool</a></div>
+
+      <div><a href="#ThreadGroup" onclick="threadGroup()"><i class="fas fa-arrow-alt-circle-right"></i> Thread Group</a></div>
+
+
+      <div><a href="#ShutDownHook" onclick="shutDownHook()"><i class="fas fa-arrow-alt-circle-right"></i> ShutDownHook</a></div>
+
+      <div><a href="#MultipleTask" onclick="multipleTask()"><i class="fas fa-arrow-alt-circle-right"></i> performing multiple task</a></div>
+
+      <div><a href="#GarbageCollection" onclick="garbageCollection()"><i class="fas fa-arrow-alt-circle-right"></i> Garbage Collection</a></div>
+
+      <div><a href="#RuntimeClass" onclick="runtimeClass()"><i class="fas fa-arrow-alt-circle-right"></i> Runtime Class</a></div>
+
+
+      <div style="padding-left: 25px; color: red;">Java Synchronization</div>
+
+
+      <div><a href="#Synchronization" onclick="synchronization()"><i class="fas fa-arrow-alt-circle-right"></i> Synchronization in java</a></div>
+
+      <div><a href="#SynchronizationBlock" onclick="synchronizationBlock()"><i class="fas fa-arrow-alt-circle-right"></i> Synchronization Block</a></div>
+
+      <div><a href="#StaticSynchronization" onclick="staticSynchronization()"><i class="fas fa-arrow-alt-circle-right"></i> Static Synchronization</a></div>
+
+      <div><a href="#Deadlock" onclick="deadlock()"><i class="fas fa-arrow-alt-circle-right"></i> Deadlock in java</a></div>
+
+
+      <div><a href="#InterThread" onclick="interThread()"><i class="fas fa-arrow-alt-circle-right"></i> Inter-Thread Comm</a></div>
+
+      <div><a href="#Interrupting" onclick="interrupting()"><i class="fas fa-arrow-alt-circle-right"></i> Interrupting Thread</a></div>
+
+      <div><a href="#Reentrant" onclick="reentrant()"><i class="fas fa-arrow-alt-circle-right"></i> Reentrant Monitor</a></div>
+
+
+
+    </div>
+      
+      <div class="split right">
+        
+
+
+          <div id="MultithreadingIntro"></div>
+          <div id="article1"></div>
+          <div id="article2"></div>
+          <div id="article3"></div>
+
+
+      </div>
+      
+
+      <script type="text/javascript" src="../../JAVASCRIPT/javajs.js">
+        
+      </script>
+
+</body>
+</html>
