@@ -5,7 +5,7 @@ function javaintro()
 }
 function oopsIntro()
 {
-    $( "#Oopsintro" ).load( "./Docs/javaintro.html" );   
+    $( "#Oopsintro" ).load( "javaintro.html" );   
 }
 function stringIntro()
 {
